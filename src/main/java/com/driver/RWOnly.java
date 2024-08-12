@@ -1,9 +1,14 @@
+// Task 1
 package com.driver;
+// Task 2
+class RWOnly{
+    private String name;
 
-public class RWOnly {
-    // private member variable name
-    private String str;
-    void setting(String str){
-        Systyem.out.println(str);
+    String getName(){
+        return name;
     }
+    void setName(String name){
+        this.name = name;
+    }
+
 }
