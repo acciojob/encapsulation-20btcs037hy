@@ -11,5 +11,8 @@ public class Main {
         obj.setName("AquibEzaz");
 
         System.out.println("Here i am "+obj.getName());
+
+        System.out.println(obj.getName());
+
     }
 }
